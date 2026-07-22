@@ -1,6 +1,6 @@
 cask "flowstate" do
-  version "0.4.0"
-  sha256 "b453f4d593bf0465352c6dbd0669a3ba8917eb7b71720b984ff94ef041649bbc"
+  version "0.5.0"
+  sha256 "03fc260cee31ef0b6d1c75f4deee70898281fe7aab686f9541f3ea807c1c6202"
 
   url "https://github.com/Theskyspace/flowstate-releases/releases/download/updates/Flowstate-#{version}.dmg"
   name "Flowstate"
