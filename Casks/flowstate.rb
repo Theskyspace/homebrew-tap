@@ -1,6 +1,6 @@
 cask "flowstate" do
-  version "0.5.0"
-  sha256 "03fc260cee31ef0b6d1c75f4deee70898281fe7aab686f9541f3ea807c1c6202"
+  version "0.6.0"
+  sha256 "202e43fd29c04ab04daaf824837db752876d50c8969fbd356f124fd205647061"
 
   url "https://github.com/Theskyspace/flowstate-releases/releases/download/updates/Flowstate-#{version}.dmg"
   name "Flowstate"
@@ -8,10 +8,4 @@ cask "flowstate" do
   homepage "https://github.com/Theskyspace/flowstate-releases"
 
   app "Flowstate.app"
-
-  caveats <<~EOS
-    Flowstate is not yet notarized. Install with --no-quarantine to skip
-    the Gatekeeper prompt:
-      brew install --cask --no-quarantine theskyspace/tap/flowstate
-  EOS
 end
